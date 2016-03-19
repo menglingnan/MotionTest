@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiBLE
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: TiBLE
+moduleid: org.beuckman.tible
+guid: 6f67cd77-3ff3-4f5a-af6f-b6067e933f1e
+platform: iphone
+minsdk: 5.1.2.GA

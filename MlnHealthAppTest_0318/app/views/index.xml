@@ -1,0 +1,46 @@
+<Alloy>
+    <TabGroup>
+        <Tab title="Motion">
+            <Window class="container" title="Motion" layout="vertical">
+                
+                
+                <!-- <View id='chartView1' height='200' width='300' top='15'/> -->
+                <View id='chartView2' height='200' width='300' top='225'/>
+                <Label id='totalAcc' top='25'/>
+                <ProgressBar id="accelX" />
+                <ProgressBar id="accelY" />
+                <ProgressBar id="accelZ" />
+                <ProgressBar id="gyroX" />
+                <ProgressBar id="gyroY" />
+                <ProgressBar id="gyroZ" />
+                <ProgressBar id="xMag" />
+                <ProgressBar id="yMag" />
+                <ProgressBar id="zMag" />
+                <Label id='totalMag' top='25'/>
+            </Window>
+        </Tab>
+        <!-- <Tab title="iBeacons">
+    		<Window class="container" title="iBeacons">
+        		<RightNavButton>
+            		<Button title="Start iBeacons" onClick="startBeacon" />
+        		</RightNavButton>
+        		<WebView id='webView' />
+    		</Window>
+		</Tab>
+		<Tab title="BLE">
+    		<Window class="container" title="BLE" layout="vertical">
+        		<View id='chartView' height='200' width='300' top='25'/>
+        		<Label id="status" top='25'/>
+        		<Label id="periName" top='25' />
+        		<Button id="scanButton" onClick="scanButton" top='50'>scan</Button>
+    		</Window>
+		</Tab>
+		<Tab title="push">
+    		<Window title="push" layout="vertical" id="pWin">
+       		 	<Button title="Subscribe" onClick="subscribeToChannel" top='80' />
+       		 	<Button title="Unsubscribe" onClick="unsubscribeToChannel" top='80' /> 
+        		<TextArea id="pushed" top='25' height='50' width='200' />
+    		</Window>
+		</Tab>   -->
+    </TabGroup>
+</Alloy>

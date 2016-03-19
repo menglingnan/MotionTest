@@ -1,0 +1,30 @@
+"Window": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+
+"ProgressBar": {
+    top: 25,
+    width: 250,
+    min: -1,
+    max: 1,
+    value: 0,
+    color: 'blue',
+    message: 'loading...',
+    font: {fontSize:14, fontWeight:'bold'},
+    style: Titanium.UI.iPhone.ProgressBarStyle.PLAIN
+}
+
+"#webView" : {
+    html: "<html><head></head><body>Press the button above to start</body></html>"
+}
